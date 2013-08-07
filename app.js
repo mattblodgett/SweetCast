@@ -19,6 +19,7 @@ $(function () {
 			$(".today .low").text(minTemp);
 			
 			var hour = forecastData.minutely.data;
+			$(".minutely").html("");
 			$.each(hour.slice(1), function (index, value) {
 				var $minuteItem = $("<li>");
 				$minuteItem.text(forecast.getPrecipMessage(value.time, value.precipProbability));
