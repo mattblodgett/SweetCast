@@ -1,0 +1,23 @@
+#content
+{
+	display: none;
+}
+
+#coordinates
+{
+	margin-bottom: 10px;
+}
+
+.hour
+{
+	width: 225px;
+	height: 200px;
+	overflow: auto;
+}
+
+.minutely
+{
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
